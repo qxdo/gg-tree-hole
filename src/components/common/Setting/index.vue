@@ -48,22 +48,22 @@ const show = computed({
             <General />
           </div>
         </NTabPane>
-        <NTabPane v-if="isChatGPTAPI" name="Advanced" tab="Advanced">
-          <template #tab>
-            <SvgIcon class="text-lg" icon="ri:equalizer-line" />
-            <span class="ml-2">{{ $t('setting.advanced') }}</span>
-          </template>
-          <div class="min-h-[100px]">
-            <Advanced />
-          </div>
-        </NTabPane>
-        <NTabPane name="Config" tab="Config">
-          <template #tab>
-            <SvgIcon class="text-lg" icon="ri:list-settings-line" />
-            <span class="ml-2">{{ $t('setting.config') }}</span>
-          </template>
-          <About />
-        </NTabPane>
+<!--        <NTabPane v-if="isChatGPTAPI" name="Advanced" tab="Advanced">-->
+<!--          <template #tab>-->
+<!--            <SvgIcon class="text-lg" icon="ri:equalizer-line" />-->
+<!--            <span class="ml-2">{{ $t('setting.advanced') }}</span>-->
+<!--          </template>-->
+<!--          <div class="min-h-[100px]">-->
+<!--            <Advanced />-->
+<!--          </div>-->
+<!--        </NTabPane>-->
+<!--        <NTabPane name="Config" tab="Config">-->
+<!--          <template #tab>-->
+<!--            <SvgIcon class="text-lg" icon="ri:list-settings-line" />-->
+<!--            <span class="ml-2">{{ $t('setting.config') }}</span>-->
+<!--          </template>-->
+<!--&lt;!&ndash;          <About />&ndash;&gt;-->
+<!--        </NTabPane>-->
       </NTabs>
     </div>
   </NModal>

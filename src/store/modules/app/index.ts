@@ -12,6 +12,9 @@ export const useAppStore = defineStore('app-store', {
     },
 
     setTheme(theme: Theme) {
+			if(theme == 'dark') {
+				alert('研究表明，看亮色会对抑郁或心情低落的人产生积极的影响哦～')
+			}
       this.theme = theme
       this.recordState()
     },
