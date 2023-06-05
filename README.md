@@ -30,9 +30,7 @@ pnpm build
 
 
 ## Thanks
-Thanks to this man.
-<a href="https://github.com/Chanzhaoyu/chatgpt-web/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Chanzhaoyu/chatgpt-web" />
-</a>
+Thanks to this project.
+
 ## License
 MIT © [qxdo]
