@@ -1,6 +1,6 @@
 # GG Tree Hole
 
-> GG True Hole is a private project, base on [ChatGPT Web](https://github.com/Chanzhaoyu/chatgpt-web)
+> GG True Hole is a personal project, base on [ChatGPT Web](https://github.com/Chanzhaoyu/chatgpt-web)
 # Manual Package 
 #### Backend
 
